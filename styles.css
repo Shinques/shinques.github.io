@@ -1,0 +1,53 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: rgb(52, 53, 65); /* RGB kodları: 52, 53, 65 olan koyu gri tonu */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #000; /* Siyah arka plan */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #fff; /* Yazı rengi beyaz */
+    text-align: center; /* Yazıları ortala */
+}
+
+h1 {
+    color: #4caf50; /* Başlık rengi yeşil */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 10px;
+}
+
+input,
+textarea {
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
